@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\InputSystem\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Tests Scenes\Player_InputSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
