@@ -5,15 +5,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637729743067461692
-    m_Hash: 2338400286
+      ticks: 637729748446718163
+    m_Hash: 3592189245
   m_LockFileStatus:
     m_FilePath: D:/Users/GLEB/Desktop/Onix Games/1. IMI/Unity/Project IMI/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637729743081564755
+      ticks: 637729749135787092
     m_Hash: 120503588
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
