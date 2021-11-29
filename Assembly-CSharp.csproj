@@ -54,13 +54,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\InputSystem\PlayerInput.cs" />
+    <Compile Include="Assets\Assects\PrettyObjectScripts\Utils\EditorColors.cs" />
     <Compile Include="Assets\Scripts\Game Settings\CameraConstantWidth.cs" />
     <Compile Include="Assets\Scripts\Game Settings\CanvasHelper.cs" />
+    <Compile Include="Assets\Assects\PrettyObjectScripts\Utils\EditorUtils.cs" />
+    <Compile Include="Assets\Assects\PrettyObjectScripts\PrettyObject.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\UI_MainMenu_Buttons.cs" />
     <Compile Include="Assets\Scripts\Tests Scenes\Player_InputSystem.cs" />
-    <Compile Include="Assets\Assects\PrettyObjectScripts\PrettyObject.cs" />
-    <Compile Include="Assets\Assects\PrettyObjectScripts\Utils\EditorUtils.cs" />
-    <Compile Include="Assets\Assects\PrettyObjectScripts\Utils\EditorColors.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMPro.cginc" />

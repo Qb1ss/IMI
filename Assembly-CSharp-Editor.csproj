@@ -54,8 +54,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\FoldoutUsage.cs" />
-    <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\HierarchyItem.cs" />
     <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\PrettyHierarchy.cs" />
+    <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\HierarchyItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
