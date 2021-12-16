@@ -53,6 +53,7 @@
     <UnityVersion>2020.2.7f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Scene Transitions\Scenes.cs" />
     <Compile Include="Assets\InputSystem\PlayerInput.cs" />
     <Compile Include="Assets\Assects\PrettyObjectScripts\Utils\EditorColors.cs" />
     <Compile Include="Assets\Scripts\Game Settings\CameraConstantWidth.cs" />
@@ -61,6 +62,8 @@
     <Compile Include="Assets\Assects\PrettyObjectScripts\PrettyObject.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\UI_MainMenu_Buttons.cs" />
     <Compile Include="Assets\Scripts\Tests Scenes\Player_InputSystem.cs" />
+    <Compile Include="Assets\Scripts\Scene Transitions\SceneTransitions.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Player\Player.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMPro.cginc" />
