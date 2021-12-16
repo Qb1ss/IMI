@@ -11,14 +11,15 @@ public class UI_MainMenu_Buttons : MonoBehaviour
 
     private void Start()
     {
-        _startGameButton.onClick.AddListener(() => Button_StartGame());
+        _startGameButton.onClick.AddListener(() => Button_StartGame(SceneManager.sceneCount - 1));
     }
 
 
-    private void Button_StartGame()
+    private void Button_StartGame(int numberScene)
     {
-        //==запуск сохраненной миссии
-        //==//==при старте сцены с уровнем, запуск сохраненной точки
-        SceneManager.LoadScene(1);
+        //переход на другую сцену, последовательно
+        SceneTransitions sceneTransitions = new SceneTransitions();
+
+        sceneTransitions.TransitionToNextScene(numberScene);
     }
 }
