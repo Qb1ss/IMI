@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EDD663C7-274D-A31D-CFCB-DB3F4B33634B}</ProjectGuid>
+    <ProjectGuid>{191B8F96-1BED-781D-CB5A-60054A37568B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,6 +56,20 @@
     <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\FoldoutUsage.cs" />
     <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\PrettyHierarchy.cs" />
     <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\HierarchyItem.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Coordinate Brush\Scripts\Editor\CoordinateBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Isometric Rule Tile\Editor\IsometricRuleTileEditor.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\Editor\PopulateRuleOverrideTileWizard.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Random Brush\Scripts\Editor\RandomBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\GameObject Brush\Scripts\Editor\GameObjectBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Group Brush\Scripts\Editor\GroupBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\CustomRuleTileMenu.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Tint Brush Smooth\Scripts\Editor\TintBrushSmooth.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\RuleTileEditor.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Hexagonal Rule Tile\Editor\HexagonalRuleTileEditor.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Prefab Brush\Scripts\Editor\PrefabBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\Editor\RuleOverrideTileEditor.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Tint Brush\Scripts\Editor\TintBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Line Brush\Scripts\Editor\LineBrush.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -736,19 +750,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{7B12F14E-85C1-FBBE-FF5F-DDB6CD415872}</Project>
+      <Project>{C4A0B33B-3AAD-943B-753F-07DFB367C9ED}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B53FEC66-98CC-4150-0BED-3E0599920972}</Project>
+      <Project>{F63A51A4-8AA2-2C25-32D2-400E1E72DE79}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{1EB1354F-40A2-E2D4-9984-F9DAE257A939}</Project>
+      <Project>{57FD1703-F168-3FE1-F09C-4483E27DF441}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="CustomToolbar.Editor.csproj">
-      <Project>{DC2B11F0-BEC8-0E55-68CD-62E1DC30D845}</Project>
+      <Project>{51FFFA23-AA3D-07FD-6AB4-B676146B9D82}</Project>
       <Name>CustomToolbar.Editor</Name>
     </ProjectReference>
   </ItemGroup>
