@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1EB1354F-40A2-E2D4-9984-F9DAE257A939}</ProjectGuid>
+    <ProjectGuid>{57FD1703-F168-3FE1-F09C-4483E27DF441}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -736,11 +736,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{7B12F14E-85C1-FBBE-FF5F-DDB6CD415872}</Project>
+      <Project>{C4A0B33B-3AAD-943B-753F-07DFB367C9ED}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="CustomToolbar.Editor.csproj">
-      <Project>{DC2B11F0-BEC8-0E55-68CD-62E1DC30D845}</Project>
+      <Project>{51FFFA23-AA3D-07FD-6AB4-B676146B9D82}</Project>
       <Name>CustomToolbar.Editor</Name>
     </ProjectReference>
   </ItemGroup>

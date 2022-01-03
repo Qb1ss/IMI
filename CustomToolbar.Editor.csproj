@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DC2B11F0-BEC8-0E55-68CD-62E1DC30D845}</ProjectGuid>
+    <ProjectGuid>{51FFFA23-AA3D-07FD-6AB4-B676146B9D82}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>CustomToolbar.Editor</AssemblyName>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B53FEC66-98CC-4150-0BED-3E0599920972}</ProjectGuid>
+    <ProjectGuid>{F63A51A4-8AA2-2C25-32D2-400E1E72DE79}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\Scene Transitions\Scenes.cs" />
     <Compile Include="Assets\InputSystem\PlayerInput.cs" />
     <Compile Include="Assets\Assects\PrettyObjectScripts\Utils\EditorColors.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Game Settings\CameraConstantWidth.cs" />
     <Compile Include="Assets\Scripts\Game Settings\CanvasHelper.cs" />
     <Compile Include="Assets\Assects\PrettyObjectScripts\Utils\EditorUtils.cs" />
@@ -63,7 +64,18 @@
     <Compile Include="Assets\Scripts\UI\Menu\UI_MainMenu_Buttons.cs" />
     <Compile Include="Assets\Scripts\Tests Scenes\Player_InputSystem.cs" />
     <Compile Include="Assets\Scripts\Scene Transitions\SceneTransitions.cs" />
-    <Compile Include="Assets\Scripts\Gameplay\Player\Player.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Animated Tile\Scripts\AnimatedTile.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Weighted Random Tile\WeightedRandomTile.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\GridInformation\Scripts\GridInformation.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Tile\Scripts\RuleTile.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Tint Brush Smooth\Scripts\TintTextureGenerator.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Pipeline Tile\Scripts\PipelineTile.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Isometric Rule Tile\IsometricRuleTile.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Hexagonal Rule Tile\HexagonalRuleTile.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Random Tile\Scripts\RandomTile.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\RuleOverrideTile.cs" />
+    <Compile Include="Assets\Scripts\GameData\HashAnimationsNames.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -73,6 +85,7 @@
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
      <None Include="Assets\Assects\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -86,6 +99,7 @@
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Assects\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
      <None Include="Assets\Assects\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files (x86)\Unity\2020.2.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -747,11 +761,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{7B12F14E-85C1-FBBE-FF5F-DDB6CD415872}</Project>
+      <Project>{C4A0B33B-3AAD-943B-753F-07DFB367C9ED}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="CustomToolbar.Editor.csproj">
-      <Project>{DC2B11F0-BEC8-0E55-68CD-62E1DC30D845}</Project>
+      <Project>{51FFFA23-AA3D-07FD-6AB4-B676146B9D82}</Project>
       <Name>CustomToolbar.Editor</Name>
     </ProjectReference>
   </ItemGroup>
