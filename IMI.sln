@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{C4A0B33B-3AAD-943B-753F-07DFB367C9ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{57FD1703-F168-3FE1-F09C-4483E27DF441}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{191B8F96-1BED-781D-CB5A-60054A37568B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{57FD1703-F168-3FE1-F09C-4483E27DF441}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomToolbar.Editor", "CustomToolbar.Editor.csproj", "{51FFFA23-AA3D-07FD-6AB4-B676146B9D82}"
 EndProject
@@ -25,14 +25,14 @@ Global
 		{C4A0B33B-3AAD-943B-753F-07DFB367C9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4A0B33B-3AAD-943B-753F-07DFB367C9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4A0B33B-3AAD-943B-753F-07DFB367C9ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57FD1703-F168-3FE1-F09C-4483E27DF441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57FD1703-F168-3FE1-F09C-4483E27DF441}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57FD1703-F168-3FE1-F09C-4483E27DF441}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57FD1703-F168-3FE1-F09C-4483E27DF441}.Release|Any CPU.Build.0 = Release|Any CPU
 		{191B8F96-1BED-781D-CB5A-60054A37568B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{191B8F96-1BED-781D-CB5A-60054A37568B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{191B8F96-1BED-781D-CB5A-60054A37568B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{191B8F96-1BED-781D-CB5A-60054A37568B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FD1703-F168-3FE1-F09C-4483E27DF441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FD1703-F168-3FE1-F09C-4483E27DF441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FD1703-F168-3FE1-F09C-4483E27DF441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FD1703-F168-3FE1-F09C-4483E27DF441}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51FFFA23-AA3D-07FD-6AB4-B676146B9D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51FFFA23-AA3D-07FD-6AB4-B676146B9D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51FFFA23-AA3D-07FD-6AB4-B676146B9D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
