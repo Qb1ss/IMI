@@ -53,23 +53,23 @@
     <UnityVersion>2020.2.7f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\FoldoutUsage.cs" />
-    <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\PrettyHierarchy.cs" />
-    <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\HierarchyItem.cs" />
     <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Coordinate Brush\Scripts\Editor\CoordinateBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\CustomRuleTileMenu.cs" />
+    <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\FoldoutUsage.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\RuleTileEditor.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\GameObject Brush\Scripts\Editor\GameObjectBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Prefab Brush\Scripts\Editor\PrefabBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Random Brush\Scripts\Editor\RandomBrush.cs" />
+    <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\PrettyHierarchy.cs" />
     <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Isometric Rule Tile\Editor\IsometricRuleTileEditor.cs" />
     <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\Editor\PopulateRuleOverrideTileWizard.cs" />
-    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Random Brush\Scripts\Editor\RandomBrush.cs" />
-    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\GameObject Brush\Scripts\Editor\GameObjectBrush.cs" />
-    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Group Brush\Scripts\Editor\GroupBrush.cs" />
-    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\CustomRuleTileMenu.cs" />
-    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Tint Brush Smooth\Scripts\Editor\TintBrushSmooth.cs" />
-    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Tile\Scripts\Editor\RuleTileEditor.cs" />
-    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Hexagonal Rule Tile\Editor\HexagonalRuleTileEditor.cs" />
-    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Prefab Brush\Scripts\Editor\PrefabBrush.cs" />
     <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Rule Override Tile\Scripts\Editor\RuleOverrideTileEditor.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Group Brush\Scripts\Editor\GroupBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Tint Brush Smooth\Scripts\Editor\TintBrushSmooth.cs" />
     <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Tint Brush\Scripts\Editor\TintBrush.cs" />
+    <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Tiles\Hexagonal Rule Tile\Editor\HexagonalRuleTileEditor.cs" />
     <Compile Include="Assets\Assects\2d-extras-2019.1\Assets\Tilemap\Brushes\Line Brush\Scripts\Editor\LineBrush.cs" />
+    <Compile Include="Assets\Assects\PrettyObjectScripts\Editor\HierarchyItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
